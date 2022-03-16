@@ -9,6 +9,12 @@ body {
   flex-direction: column;
 }
 
+.header {
+  display: flex;
+  padding: 16px;
+  justify-content: space-between;
+}
+
 ul {
   list-style-type: none;
   display: flex;
