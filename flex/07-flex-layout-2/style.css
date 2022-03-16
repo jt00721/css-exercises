@@ -4,7 +4,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 .header {
@@ -51,8 +51,17 @@ a {
   padding: 16px;
 }
 
+.cards {
+  padding: 32px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  max-width: 300px;
+  padding: 12px;
 }
