@@ -9,10 +9,14 @@ body {
   flex-direction: column;
 }
 
-.header {
+.header, .footer {
   display: flex;
   padding: 16px;
   justify-content: space-between;
+}
+
+.footer {
+  background-color: #eeeeee;
 }
 
 .content {
